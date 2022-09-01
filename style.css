@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('images/PicsArt_09-01-06.57.44.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+
+}
+
+.menu{display: flex;width: 100%;}
+
+.gui-menu{
+    color: white;
+    width: 50%;}
+
+.items-menu{width: 50%;}
+
+.items-menu a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.items-menu a:hover{
+    border-bottom: 2px solid #ff00f2;
+}
+
+.items-menu a.contact-btn{
+    background-color: #ff00ff;
+    padding: 10px 10px;
+}
+
+.items-menu a.contact-btn:hover{
+    border: 0;
+}
+
+.mockup{display: block;width:100%;color: white;text-align: center;padding-top: 100px;}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup img{max-width: 100%;}
+
+section.marcas{
+    padding: 100px 0;
+}
+
+section.marcas img{
+    width: calc(70% / 5);
+}
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #000000;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+}
+
+section.porque-nos > .center {
+    max-width: 1280px;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721c;
+    width: 31%;
+    margin-right: 2%;
+    padding:10px 20px;
+    border-radius:10px;
+    background-color: #ffffff;
+}
+
+.box-diferenciais h2{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+}
+
+.box-diferenciais p{
+   
+    font-size: 13px;
+    color: #141516;
+    margin-bottom: 20px;
+}
+.box-diferenciais a{
+     text-decoration: none;
+     color: #d30fc9;
+}
+
+section.cta{
+    background-image:url('images/PicsArt_09-01-02.23.10.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+section.cta h2{
+    font-size: 30px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section.beneficio{
+    padding:50px 0;
+}
+.lista-beneficios{
+    width: 40%;
+    margin-top: 30px;
+}
+.lista-beneficios h1{
+    color: black;
+    font-size: 40px;
+}
+.lista-beneficios p{
+    color: #7E92AC;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.img-beneficios{
+    width: 60%;
+}
+
+.img-beneficios img{max-width: 100%;}
+
+section.Depoimentos{
+
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+section.Depoimentos > h1{
+
+    color: #ffffff;
+    font-size: 50px;
+    top: 3780px;
+    left: 755px;
+    width: 410px;
+    height: 75px;
+}
+
+.container-slider{
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.container-slider-single p {
+    margin:15 px 0;
+    color: #7E92AC;
+    font-size: 14px;
+    
+
+}
+.container-slider-single img {
+    top: 3965px;
+left: 986px;
+width: 86px;
+height: 86px;
+background: transparent url('images/PicsArt_09-01-01.18.58.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+.slick-slide {
+    margin-left: 27px;
+
+}
+
+.slick-list {
+    margin-left: -27px;
+}
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+
+.slick-slide:focus { outline: none; }
+
+.slick-slide:focus { outline: none; }
+
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+section.contato form{
+    width: 100%;
+}
+section.contato p{
+    color: #ffffff;
+}
+
+.contato input[type=text],
+.contato input[type=email]
+{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: #fcfdff;
+    border: 1px solid #C3CCEB;
+    border-radius: 10px;
+    padding-left:  10px;
+}
+
+.contato textarea
+{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background: #fcfdff;
+    border: 1px solid #C3CCEB;
+    border-radius: 10px;
+    padding:  10px;
+    resize: vertical;
+}
+
+.contato button[type=submit]{
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: #ff00ff;
+    color: white;
+    font-size: 18px;
+    
+}
+
+section.whats{
+    background-color: #0F3FD3;
+}
+
+footer{
+    padding: 10px 0;
+    background: #000000;
+    color: white;
+}
+.text-footer{
+    width: 50%;
+    padding: 8px 0;
+}
+
+#div-fixa{
+    position: fixed;
+    bottom: 20px;
+    margin: 0 20px;
+    background: rgb(0, 255, 85);
+    width: 230px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;  
+   
+}
+
+#div-fixa.shrink{
+    width: 50px;
+    transition: 0.5s all;
+    overflow: hidden;
+}
+
+#div-fixa img{
+    width: 50px;
+    height: 50px;
+}
+
+#div-fixa a .flex-itens {
+    display: flex;
+    align-items: center;
+}
+#div-fixa a .flex-itens span{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #272727;
+    margin-left: 5px;
+    font-size: 18px;
+    min-width: 200px;
+    opacity: 0;
+}
+#div-fixa a .flex-itens span.aparecer{
+    transition: 0.5s all;
+    opacity: 1;
+    
+}
+
+.flutuar{
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar{
+    from{
+        transform: translate3d(0,0,0);
+        filter: brightness(100%);
+    }
+    to{
+        transform: translate3d(0,-15px,0);
+        filter: brightness(120%);
+    }
+}
+.items-menu-mobile{
+    width: 50%;
+    text-align: right;
+    display: none;
+}
+.items-menu-mobile i{
+    color: rgb(255, 0, 170);
+    position: relative;
+    font-size: 23px;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .items-menu-mobile{
+        display: block;
+     
+    }
+
+    .menu-mobile{
+       
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        border-radius: 5%;
+    }
+
+    .show{
+        opacity: 1;
+       
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 8px 0;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        padding: 8px 0;
+    }
+    
+    section.main .items-menu{
+        display: none;
+    }
+
+    footer .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .items-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+        .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    .lista-beneficios,.img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;      
+    }
+    
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.marcas img{
+       max-width:300%;
+        width: 100%;
+        
+    }
+}
